@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms with Frames</title>
+</head>
+<body>
+    <h1>Student Exercise Form</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+            
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <label for="website">Personal Website:</label><br>
+            <input type="url" id="website" name="website"><br><br>
+        </form>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Preferences</legend>
+        <form>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            
+            <label for="profile-picture">Profile Picture:</label><br>
+            <input type="file" id="profile-picture" name="profile-picture"><br><br>
+            
+            <label>Favorite Subjects:</label><br>
+            <input type="checkbox" id="math" name="subjects" value="math">
+            <label for="math">Math</label><br>
+            <input type="checkbox" id="science" name="subjects" value="science">
+            <label for="science">Science</label><br>
+            <input type="checkbox" id="history" name="subjects" value="history">
+            <label for="history">History</label><br><br>
+            
+            <label for="grade">Grade:</label><br>
+            <select id="grade" name="grade">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+            </select><br><br>
+            
+            <label for="color">Favorite Color:</label><br>
+            <input type="color" id="color" name="color"><br><br>
+            
+            <label for="browser">Favorite Browser:</label><br>
+            <input type="text" id="browser" name="browser"><br><br>
+        </form>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Additional Information</legend>
+        <form>
+            <label for="comments">Comment:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        </form>
+    </fieldset>
+
+    <br>
+    
+    <button>Submit</button>
+    <button>Reset</button>
+</body>
+</html>
